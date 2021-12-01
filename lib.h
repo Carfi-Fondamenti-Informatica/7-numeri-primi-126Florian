@@ -1,14 +1,5 @@
-#include "lib.h"
+#ifndef ESERCIZIO7_LIB_H
+#DEFINE ESERCIZIO7_LIB_H
 
-bool numeroprimo(int n, int a){
-     if (n<0){
-         return false;
-     }else if (n==1) {
-          return true;
-     }else if (a==1){
-           return true;
-     }else if (n%a==0){
-           return false;
-     }
-     numeroprimo(n,--a);
-         }
+#endif //ESERCIZIO7_LIB_H
+bool numeroprimo(int, int);
